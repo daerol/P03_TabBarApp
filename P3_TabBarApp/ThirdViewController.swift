@@ -27,13 +27,13 @@ class ThirdViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         // selected by the user
         
         let row = singlePicker.selectedRow(inComponent: 0)
-        
+        let row2 = singlePicker.selectedRow(inComponent: 1)
         
         // Then we get the actual data from our
         // pickerData array.
         
         let selected = pickerData[row]
-        let selected2 = pickerData2[row]
+        let selected2 = pickerData2[row2]
         
         // Then we show an alert with the selected data.
         //
